@@ -25,7 +25,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/base_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -38,7 +38,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/base_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/base_link.STL" />
       </geometry>
     </collision> -->
   </link>
@@ -62,7 +62,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/rear_boggie_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/rear_boggie_link.STL" />
       </geometry>
       <material
         name="">
@@ -75,7 +75,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/MRB_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/MRB_link.STL" />
       </geometry>
     </collision> -->
   </link>
@@ -116,7 +116,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/rl_steer_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/rl_steer_link.STL" />
       </geometry>
       <material
         name="">
@@ -129,7 +129,7 @@
         xyz="0 0 0"
         rpy="0 0 -1.5708" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/STR_LR_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/STR_LR_link.STL" />
       </geometry>
     </collision> -->
   </link>
@@ -170,7 +170,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/rl_drive_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/rl_drive_link.STL" />
       </geometry>
       <material
         name="">
@@ -184,7 +184,7 @@
         rpy="0 0 0" />
       <geometry>
         <cylinder length="0.05" radius="0.045"/>
-        <!-- <mesh filename="package://urdf_tutorial/meshes/DRV_LR_link.STL" /> -->
+        <!-- <mesh filename="package://exomy_sim/models/exomy_model/meshes/DRV_LR_link.STL" /> -->
       </geometry>
     </collision>
   </link>
@@ -224,7 +224,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/rr_steer_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/rr_steer_link.STL" />
       </geometry>
       <material
         name="">
@@ -237,7 +237,7 @@
         xyz="0 0 0"
         rpy="0 0 1.5708" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/STR_RR_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/STR_RR_link.STL" />
       </geometry>
     </collision> -->
   </link>
@@ -278,7 +278,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/rr_drive_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/rr_drive_link.STL" />
       </geometry>
       <material
         name="">
@@ -292,7 +292,7 @@
         rpy="0 0 0" />
       <geometry>
         <cylinder length="0.05" radius="0.045"/>
-        <!-- <mesh filename="package://urdf_tutorial/meshes/DRV_RR_link.STL" /> -->
+        <!-- <mesh filename="package://exomy_sim/models/exomy_model/meshes/DRV_RR_link.STL" /> -->
       </geometry>
     </collision>
   </link>
@@ -332,7 +332,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/fr_boggie_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/fr_boggie_link.STL" />
       </geometry>
       <material
         name="">
@@ -345,7 +345,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/RFB_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/RFB_link.STL" />
       </geometry>
     </collision> -->
   </link>
@@ -386,7 +386,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/fr_steer_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/fr_steer_link.STL" />
       </geometry>
       <material
         name="">
@@ -399,7 +399,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/STR_RF_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/STR_RF_link.STL" />
       </geometry>
     </collision> -->
   </link>
@@ -440,7 +440,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/fr_drive_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/fr_drive_link.STL" />
       </geometry>
       <material
         name="">
@@ -454,7 +454,7 @@
         rpy="0 0 0" />
       <geometry>
         <cylinder length="0.05" radius="0.045"/>
-        <!-- <mesh filename="package://urdf_tutorial/meshes/DRV_RF_link.STL" /> -->
+        <!-- <mesh filename="package://exomy_sim/models/exomy_model/meshes/DRV_RF_link.STL" /> -->
       </geometry>
     </collision>
   </link>
@@ -494,7 +494,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/mr_steer_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/mr_steer_link.STL" />
       </geometry>
       <material
         name="">
@@ -507,7 +507,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/STR_RM_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/STR_RM_link.STL" />
       </geometry>
     </collision> -->
   </link>
@@ -548,7 +548,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/mr_drive_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/mr_drive_link.STL" />
       </geometry>
       <material
         name="">
@@ -562,7 +562,7 @@
         rpy="0 0 0" />
       <geometry>
         <cylinder length="0.05" radius="0.045"/>
-        <!-- <mesh filename="package://urdf_tutorial/meshes/DRV_RM_link.STL" /> -->
+        <!-- <mesh filename="package://exomy_sim/models/exomy_model/meshes/DRV_RM_link.STL" /> -->
       </geometry>
     </collision>
   </link>
@@ -602,7 +602,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/fl_boggie_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/fl_boggie_link.STL" />
       </geometry>
       <material
         name="">
@@ -615,7 +615,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/LFB_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/LFB_link.STL" />
       </geometry>
     </collision> -->
   </link>
@@ -656,7 +656,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/fl_steer_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/fl_steer_link.STL" />
       </geometry>
       <material
         name="">
@@ -669,7 +669,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/STR_LF_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/STR_LF_link.STL" />
       </geometry>
     </collision> -->
   </link>
@@ -710,7 +710,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/fl_drive_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/fl_drive_link.STL" />
       </geometry>
       <material
         name="">
@@ -724,7 +724,7 @@
         rpy="0 0 0" />
       <geometry>
         <cylinder length="0.05" radius="0.045"/>
-        <!-- <mesh filename="package://urdf_tutorial/meshes/DRV_LF_link.STL" /> -->
+        <!-- <mesh filename="package://exomy_sim/models/exomy_model/meshes/DRV_LF_link.STL" /> -->
       </geometry>
     </collision>
   </link>
@@ -764,7 +764,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/ml_steer_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/ml_steer_link.STL" />
       </geometry>
       <material
         name="">
@@ -777,7 +777,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/STR_LM_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/STR_LM_link.STL" />
       </geometry>
     </collision> -->
   </link>
@@ -818,7 +818,7 @@
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://urdf_tutorial/meshes/ml_drive_link.STL" />
+        <mesh filename="package://exomy_sim/models/exomy_model/meshes/ml_drive_link.STL" />
       </geometry>
       <material
         name="">
@@ -832,7 +832,7 @@
         rpy="0 0 0" />
       <geometry>
         <cylinder length="0.05" radius="0.045"/>
-        <!-- <mesh filename="package://urdf_tutorial/meshes/DRV_LM_link.STL" /> -->
+        <!-- <mesh filename="package://exomy_sim/models/exomy_model/meshes/DRV_LM_link.STL" /> -->
       </geometry>
     </collision>
   </link>
@@ -873,7 +873,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/pan_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/pan_link.STL" />
       </geometry>
       <material
         name="">
@@ -881,15 +881,15 @@
           rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
       </material>
     </visual>
-    <collision>
+    <!-- <collision>
       <origin
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/pan_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/pan_link.STL" />
       </geometry>
-    </collision>
+    </collision> -->
   </link>
   <joint name="pan_joint"
     type="revolute">
@@ -929,7 +929,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/tilt_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/tilt_link.STL" />
       </geometry>
       <material
         name="">
@@ -937,15 +937,15 @@
           rgba="0.945 0.945 0.926 1" />
       </material>
     </visual>
-    <collision>
+    <!-- <collision>
       <origin
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/tilt_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/tilt_link.STL" />
       </geometry>
-    </collision>
+    </collision> -->
   </link>
   <joint name="tilt_joint"
     type="revolute">
@@ -986,7 +986,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/fr_walk_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/fr_walk_link.STL" />
       </geometry>
       <material
         name="">
@@ -994,15 +994,15 @@
           rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
       </material>
     </visual>
-    <collision>
+    <!-- <collision>
       <origin
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/fr_walk_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/fr_walk_link.STL" />
       </geometry>
-    </collision>
+    </collision> -->
   </link>
   <joint name="fr_walk_joint"
     type="revolute">
@@ -1015,9 +1015,14 @@
       link="fr_walk_link" />
     <axis
       xyz="0 0 -1" />
-    <limit
+    <!-- <limit
       lower="-1.57"
       upper="1.57"
+      effort="0"
+      velocity="0" /> -->
+    <limit
+      lower="0"
+      upper="0"
       effort="0"
       velocity="0" />
   </joint>
@@ -1042,7 +1047,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/mr_walk_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/mr_walk_link.STL" />
       </geometry>
       <material
         name="">
@@ -1056,7 +1061,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/mr_walk_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/mr_walk_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1071,9 +1076,14 @@
       link="mr_walk_link" />
     <axis
       xyz="0 0 -1" />
-    <limit
+    <!-- <limit
       lower="-1.57"
       upper="1.57"
+      effort="0"
+      velocity="0" /> -->
+    <limit
+      lower="0"
+      upper="0"
       effort="0"
       velocity="0" />
   </joint>  
@@ -1098,7 +1108,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/fl_walk_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/fl_walk_link.STL" />
       </geometry>
       <material
         name="">
@@ -1106,15 +1116,15 @@
           rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
       </material>
     </visual>
-    <collision>
+    <!-- <collision>
       <origin
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/fl_walk_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/fl_walk_link.STL" />
       </geometry>
-    </collision>
+    </collision> -->
   </link>
   <joint name="fl_walk_joint"
     type="revolute">
@@ -1127,9 +1137,14 @@
       link="fl_walk_link" />
     <axis
       xyz="0 0 -1" />
-    <limit
+    <!-- <limit
       lower="-1.57"
       upper="1.57"
+      effort="0"
+      velocity="0" /> -->
+    <limit
+      lower="0"
+      upper="0"
       effort="0"
       velocity="0" />
   </joint>
@@ -1154,7 +1169,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/ml_walk_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/ml_walk_link.STL" />
       </geometry>
       <material
         name="">
@@ -1162,15 +1177,15 @@
           rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
       </material>
     </visual>
-    <collision>
+    <!-- <collision>
       <origin
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/ml_walk_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/ml_walk_link.STL" />
       </geometry>
-    </collision>
+    </collision> -->
   </link>
   <joint name="ml_walk_joint"
     type="revolute">
@@ -1183,9 +1198,14 @@
       link="ml_walk_link" />
     <axis
       xyz="0 0 -1" />
-    <limit
+    <!-- <limit
       lower="-1.57"
       upper="1.57"
+      effort="0"
+      velocity="0" /> -->
+    <limit
+      lower="0"
+      upper="0"
       effort="0"
       velocity="0" />
   </joint>
@@ -1210,7 +1230,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/rr_walk_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/rr_walk_link.STL" />
       </geometry>
       <material
         name="">
@@ -1224,7 +1244,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/rr_walk_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/rr_walk_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1239,9 +1259,14 @@
       link="rr_walk_link" />
     <axis
       xyz="0 0 -1" />
-    <limit
+    <!-- <limit
       lower="-1.57"
       upper="1.57"
+      effort="0"
+      velocity="0" /> -->
+    <limit
+      lower="0"
+      upper="0"
       effort="0"
       velocity="0" />
   </joint>
@@ -1266,7 +1291,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/rl_walk_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/rl_walk_link.STL" />
       </geometry>
       <material
         name="">
@@ -1274,15 +1299,15 @@
           rgba="0.298039215686275 0.298039215686275 0.298039215686275 1" />
       </material>
     </visual>
-    <collision>
+    <!-- <collision>
       <origin
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://urdf_tutorial/meshes/rl_walk_link.STL" />
+          filename="package://exomy_sim/models/exomy_model/meshes/rl_walk_link.STL" />
       </geometry>
-    </collision>
+    </collision> -->
   </link>
   <joint name="rl_walk_joint"
     type="revolute">
@@ -1295,9 +1320,14 @@
       link="rl_walk_link" />
     <axis
       xyz="0 0 -1" />
-    <limit
+    <!-- <limit
       lower="-1.57"
       upper="1.57"
+      effort="0"
+      velocity="0" /> -->
+    <limit
+      lower="0"
+      upper="0"
       effort="0"
       velocity="0" />
   </joint>
@@ -1347,6 +1377,14 @@
       <joint_name>STR_RM_joint</joint_name>
       <joint_name>STR_LR_joint</joint_name>
       <joint_name>STR_RR_joint</joint_name>
+      <joint_name>fr_walk_joint</joint_name>
+      <joint_name>mr_walk_joint</joint_name>
+      <joint_name>fl_walk_joint</joint_name>
+      <joint_name>ml_walk_joint</joint_name>
+      <joint_name>rr_walk_joint</joint_name>
+      <joint_name>rl_walk_joint</joint_name>
+      <joint_name>pan_joint</joint_name>
+      <joint_name>tilt_joint</joint_name>
     </plugin>
 
   </gazebo>
