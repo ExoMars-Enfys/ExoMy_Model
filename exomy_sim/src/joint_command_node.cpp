@@ -51,6 +51,19 @@ class JointCommandNode : public rclcpp::Node
                 joint_command_array_msg.joint_command_array.push_back(joint_command_msg);
                 j++;
             }
+
+            int k = 0;
+            for (std::string name : ptu_joint_names)
+            {
+                exomy_sim_msgs::msg::JointCommand joint_command_msg;
+                joint_command_msg.header.stamp = clock->now();
+                joint_command_msg.name = name;
+                joint_command_msg.mode = "POSITION";
+                joint_command_msg.value = -msg->ptu_angles[k]/180.0*M_PI;
+                joint_command_array_msg.joint_command_array.push_back(joint_command_msg);
+                k++;
+            }
+
             joint_command_array_msg.header.stamp = clock->now();
             joint_command_pub_->publish(joint_command_array_msg);
 
@@ -58,6 +71,7 @@ class JointCommandNode : public rclcpp::Node
 
         const std::list<std::string> drive_joint_names = {"DRV_LF_joint", "DRV_RF_joint", "DRV_LM_joint", "DRV_RM_joint", "DRV_LR_joint", "DRV_RR_joint"};
         const std::list<std::string> steer_joint_names = {"STR_LF_joint", "STR_RF_joint", "STR_LM_joint", "STR_RM_joint", "STR_LR_joint", "STR_RR_joint"};
+        const std::list<std::string> ptu_joint_names = {"pan_joint", "tilt_joint"};
 
         rclcpp::Subscription<exomy_msgs::msg::MotorCommands>::SharedPtr  motor_commands_sub_;
         rclcpp::Publisher<exomy_sim_msgs::msg::JointCommandArray>::SharedPtr joint_command_pub_;

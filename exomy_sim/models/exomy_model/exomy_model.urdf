@@ -905,8 +905,8 @@
     <limit
       lower="-1.57"
       upper="1.57"
-      effort="0"
-      velocity="0" />
+      effort="1000"
+      velocity="1.0" />
   </joint>
   <link name="tilt_link">
     <inertial>
@@ -961,8 +961,8 @@
     <limit
       lower="-1.57"
       upper="1.57"
-      effort="0"
-      velocity="0" />
+      effort="1000"
+      velocity="1.0" />
   </joint>
 
   <link name="fr_walk_link">
@@ -1483,6 +1483,18 @@
     <mu1>0.5</mu1>
     <mu2>0.5</mu2>
     <material>Gazebo/Gold</material>
+  </gazebo>
+
+  <gazebo reference="pan_link">
+    <mu1>0.2</mu1>
+    <mu2>0.2</mu2>
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="tilt_link">
+    <mu1>0.2</mu1>
+    <mu2>0.2</mu2>
+    <material>Gazebo/Grey</material>
   </gazebo>
 
 </robot>

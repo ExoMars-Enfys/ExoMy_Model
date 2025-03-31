@@ -255,7 +255,7 @@ namespace gazebo_plugins
         std::lock_guard<std::mutex> scoped_lock(lock_);
 
         // Iterate over received joint command array and set controller targets
-        for (auto const cmd : _msg->joint_command_array)
+        for (auto const &cmd : _msg->joint_command_array)
         {
             if (cmd.mode == "POSITION")
             {
